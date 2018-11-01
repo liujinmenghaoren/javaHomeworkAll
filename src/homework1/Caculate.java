@@ -25,7 +25,7 @@ public class Caculate {
 	
 	public static int caculate(int first, int second, String oper) {
 		int result = 0;
-		switch ("oper") {
+		switch (oper) {
 		case "+" : 
 			result =  first + second;
 			break;
